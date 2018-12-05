@@ -1,12 +1,16 @@
 let controller = new ScrollMagic.Controller();
 
-let blockTween = new TweenMax.to('#container', 1.5, {
-  backgroundColor: 'red'
+let containerScene = new ScrollMagic.Scene({
+  triggerElement: '#container',
+  duration: 300
 });
 
-let containerScene = new ScrollMagic.Scene({
-  triggerElement: '#container'
-})
-.setTween(blockTween)
+let blockTween = new TweenMax.to('#dark-layer', 1.5, {
+  opacity: '0'
+});
+
+containerScene.setTween(blockTween)
+containerScene.setPin('#block')
 .addIndicators()
 .addTo(controller);
+
