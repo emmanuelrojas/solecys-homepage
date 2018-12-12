@@ -7,27 +7,72 @@
 
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
-  <div id="background">
-    <div id="dark-layer">
-      <div id="container">
-        <div id="block">
-          La Fuente de energía del futuro
-        </div>
+
+  <div class="page-section hero-background">
+    <div class="hero-content" title-scroll>
+      <h1 class="hero-text">Curso de Energía Solar</h1>
+      <img src="/assets/solecys-logo.png" alt="" width="480px" class="hero-image">
+    </div>
+  </div>
+
+  <div class="page-section row platform-content">
+    <div class="platform-block">
+      <div class="col s12 m6 platform-content-text">
+        <h5 data-scroll>
+          Aprende los conceptos básicos de la energía solar de manera simple y concisa.
+        </h5>
+        <br>
+        <h5 data-scroll>
+          Lleva tus conocimientos a la práctica aprendiendo a instalar una celda solar, en condiciones reales.
+        </h5>
+        <br>
+        <h5 data-scroll>
+          Aumenta tus ingresos aplicando tus conocimientos y ofreciendo el servicio de instalación.
+        </h5>
+      </div>
+      <div class="col s12 m6 ">
+        <img data-scroll src="/assets/solar-cell-isometric.svg" alt="" class="solar-cells-city">
       </div>
     </div>
   </div>
-  <div id="second-block">
-    <h1>Hola</h1>
+
+  <div class="page-section row solar-energy-data">
+    <div class="solar-energy-content"">
+      <h1 class="hero-text" data-scroll>La Energía del Futuro</h1>
+      <p class="solar-energy-text" data-scroll>El uso de los sistemas fotovoltaicos incrementa cada año, tan sólo en el 2017 creció casi un 30%.</p>
+      <img data-scroll src="/assets/solar-power.jpg" alt="" width="800px" class="solar-energy-graph">
+    </div>
   </div>
+
+  <div class="page-section row platform-content">
+    <div class="col s12 m6 platform-content-text">
+      <h5 data-scroll>
+          Cursos en línea con videos, lecturas y actividades
+      </h5>
+      <br>
+      <h5 data-scroll>
+        Aprende a tu ritmo, a tu horario, dónde quieras.
+      </h5>
+      <br>
+      <h5 data-scroll>
+        Plataforma web compatible con todos los dispositivos.
+      </h5>
+    </div>
+    <div class="col s12 m6 ">
+      <img src="/assets/online-course-platform.png" alt="" class="solar-cells-city">
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+  <script>
+    ScrollOut();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
