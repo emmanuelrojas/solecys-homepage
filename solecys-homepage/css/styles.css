@@ -80,6 +80,26 @@ html, body {
   border-radius: 16px;
 }
 
+.signup-background {
+  background-image: url("../assets/solar-cell-texture.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.signup-section {
+  width: 100%;
+  max-width: 900px;
+}
+
+.sign-up-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 16px;
+}
+
 .text-center {
   text-align: center;
 }
