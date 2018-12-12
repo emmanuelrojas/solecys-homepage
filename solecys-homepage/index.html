@@ -7,71 +7,176 @@
 
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-    
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
 
-  <div class="page-section hero-background">
-    <div class="hero-content" title-scroll>
-      <h1 class="hero-text">Curso de Energía Solar</h1>
-      <img src="/assets/solecys-logo.png" alt="" width="480px" class="hero-image">
-    </div>
-  </div>
-
-  <div class="page-section row platform-content">
-    <div class="platform-block">
-      <div class="col s12 m6 platform-content-text">
-        <h5 data-scroll>
-          Aprende los conceptos básicos de la energía solar de manera simple y concisa.
-        </h5>
-        <br>
-        <h5 data-scroll>
-          Lleva tus conocimientos a la práctica aprendiendo a instalar una celda solar, en condiciones reales.
-        </h5>
-        <br>
-        <h5 data-scroll>
-          Aumenta tus ingresos aplicando tus conocimientos y ofreciendo el servicio de instalación.
-        </h5>
+  <div class="navbar-fixed">
+    <nav id="navbar" class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#"><img src="/assets/solecys-logo.png" alt="" class="brand-logo"></a>
+          <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Registro</a></li>
+            <li>|</li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col s12 m6 ">
-        <img data-scroll src="/assets/solar-cell-isometric.svg" alt="" class="solar-cells-city">
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Paquetes</a></li>
+    <li><a href="#">Nosotros</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+  </ul>
+
+  <div class="hero-background top">
+    <h1 class="hero-text">Curso de Energía Solar</h1>
+  </div>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large green" href="https://wa.me/522211204958?text=¡Me%20interesa!%20Mándenme%20más%20información" target="__blanck">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <div style="background-color: #F5F5F5;">
+    <br><br>
+    <h1 class="text-center" style="margin:0px">Plataforma de aprendizaje en línea</h1>
+    <br><br>
+    <div class="courses-description row">
+      <div class="col s12 m4" data-scroll>
+        <div class="card solar-energy-card">
+          <div class="card-content">
+            <img src="/assets/solar-cell-isometric.png" alt="" width="100%">
+            <h5 style="color: #2E3648; text-align: center">
+              Aprende los conceptos básicos de la energía solar de manera simple y concisa
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4" data-scroll>
+        <div class="card solar-work-card">
+          <div class="card-content">
+            <img src="/assets/solar-cell-installation.png" alt="" width="100%">
+            <h5 style="color: #FFF389; text-align: center">
+              Aumenta tus ingresos aplicando tus conocimientos y ofreciendo el servicio de instalación.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4" data-scroll>
+        <div class="card online-platform-card">
+          <div class="card-content">
+            <img src="/assets/online-course-platform.png" alt="" width="100%">
+            <h5 style="color: #FFBBEC; text-align: center">
+              Plataforma web con videos, actividades y herramientas, compatible con todos los dispositivos
+            </h5>
+          </div>
+        </div>
       </div>
     </div>
+    <br><br>
   </div>
 
-  <div class="page-section row solar-energy-data">
-    <div class="solar-energy-content"">
-      <h1 class="hero-text" data-scroll>La Energía del Futuro</h1>
-      <p class="solar-energy-text" data-scroll>El uso de los sistemas fotovoltaicos incrementa cada año, tan sólo en el 2017 creció casi un 30%.</p>
-      <img data-scroll src="/assets/solar-power.jpg" alt="" width="800px" class="solar-energy-graph">
-    </div>
+  <div class="statistics-background text-center">
+    <br><br>
+    <h1 class="hero-text">La Energía del futuro</h1>
+    <h5 class="white-text text-center">El uso de los sistemas fotovoltaicos incrementa cada año, tan sólo en el 2017 creció casi un 30%.</h5>
+    <br>
+    <img src="/assets/solar-power.jpg" class="statistic-image" alt="">
+    <br><br> <br><br>
   </div>
 
-  <div class="page-section row platform-content">
-    <div class="col s12 m6 platform-content-text">
-      <h5 data-scroll>
-          Cursos en línea con videos, lecturas y actividades
-      </h5>
-      <br>
-      <h5 data-scroll>
-        Aprende a tu ritmo, a tu horario, dónde quieras.
-      </h5>
-      <br>
-      <h5 data-scroll>
-        Plataforma web compatible con todos los dispositivos.
-      </h5>
+  <div style="background-color: #F5F5F5;">
+    <br><br>
+    <h1 class="text-center" style="margin:0px">Testimonios</h1>
+    <div class="courses-description row">
+      <div class="col s12 m4" data-scroll style="margin-top: 100px">
+        <div class="card solar-energy-card">
+          <div class="card-content text-center">
+            <img src="/assets/aimee.jpeg" alt="" class="profile-image" style="border: 8px solid #AACCFF;">
+            <h5 style="color: #2E3648; text-align: center; font-style: italic">Aimee Danaey Soni</h5>
+            <p><strong>Mansur Solar</strong></p><br>
+            <p style="color: #2E3648; text-align: center; font-style: italic">
+              "Excelente curso con información actualizada... siempre muy atentos y dispuestos a resolver dudas"
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4" data-scroll style="margin-top: 100px">
+        <div class="card online-platform-card">
+          <div class="card-content text-center">
+            <img src="/assets/jesus.jpeg" alt="" class="profile-image" style="border: 8px solid #005588;">
+            <h5 style="color: #AABBFF; text-align: center; font-style: italic">Jesús Antonio González</h5>
+            <p style="color: #AABBFF;"><strong>Módulo Solar S.A. de C.V.</strong></p><br>
+            <p style="color: #AABBFF; text-align: center; font-style: italic">
+              "...quiero hacer llegar mis felicitaciones a la empresa Solecys  donde aprendí ampliamente de energía solar..."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4" data-scroll style="margin-top: 100px">
+        <div class="card solar-work-card">
+          <div class="card-content text-center">
+            <img src="/assets/janette.jpeg" alt="" class="profile-image" style="border: 8px solid #880000;">
+            <h5 style="color: #FFF389; text-align: center; font-style: italic">Jannete Alejandra García</h5>
+            <p style="color: #FFF389;"><strong>Estudiante de Maestría en el Instituto de Energías Renovables</strong></p><br>
+            <p style="color: #FFF389; text-align: center; font-style: italic">
+              "...es un curso muy completo y didáctico ... se estudian desde conceptos básicos hasta conceptos técnicos para la instalación de sistemas fotovoltaicos ..."
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col s12 m6 ">
-      <img src="/assets/online-course-platform.png" alt="" class="solar-cells-city">
-    </div>
+    <br><br>
   </div>
+  <footer class="page-footer blue-grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Quiénes somos</h5>
+          <p class="grey-text text-lighten-4">
+            Somos una empresa comprometida en aportar valor en cada capacitación, generando una transformación en nuestros estudiantes, que mejore su vida personal, profesional y económica.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Información</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Plataforma</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Terminos y Condiciones</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Acuerdo de Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright blue-grey darken-4">
+      <div class="container">
+      © 2018 Solecys
+      </div>
+    </div>
+  </footer>
 
   <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
-  <script>
-    ScrollOut();
-  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>

@@ -5,12 +5,23 @@ html, body {
   font-family: 'Maven Pro', sans-serif;
 }
 
-.page-section {
-  min-height: 100vh;
-  margin: 0px auto !important;
+.solid {
+  transition: background-color 1s ease 0s;
+}
+
+.transparent {
+  transition: background-color 1s ease 0s;
+}
+
+.brand-logo {
+  margin: 16px 0px;
+  height: 36px;
 }
 
 .hero-background {
+  height: 120vh;
+  margin-top: -120px !important;
+  padding-top: 50vh;
   background-image: url("../assets/solar-panels.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -19,77 +30,76 @@ html, body {
   position: relative;
 }
 
-.hero-content {
-  padding: 16px;
-  text-align: center;
-  opacity: 100% !important;
-  vertical-align: middle;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  height: 80%;
-  top: 0; left: 0; bottom: 0; right: 0;
-  max-width: 800px;
-  width: 100%;
-}
-
 .hero-text {
-  font-size: 64px;
-  color: yellow;
-  text-shadow: 4px 4px 12px black; 
-}
-
-.hero-image {
-  width: 80%;
-  max-width: 480px;
-}
-
-.platform-content {
-  background-color: #E5F8FF;
-  position: relative;
-}
-
-.platform-block {
-  width: 100%;
-  margin: 0px auto;
-}
-
-.platform-content-text {
-  height: 80%;
-  padding: 48px !important;
-}
-
-.solar-cells-city {
-  height: 100vh;
-  position: absolute;
-  bottom: 0px;
-}
-
-.solar-energy-data {
-  background-color: #19242B;
-  position: relative;
-}
-
-.solar-energy-graph {
-  width: 80%;
-  max-width: 800px;
-  border-radius: 24px;
-}
-
-.solar-energy-content {
-  padding: 16px;
   text-align: center;
-  opacity: 100% !important;
-  vertical-align: middle;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  font-size: 64px;
+  color: #FFFF88;
+  text-shadow: 4px 4px 12px black; 
+  margin: 0;
 }
 
-.solar-energy-text {
-  font-size: 24px;
-  color: white;
-  text-shadow: 4px 4px 12px black; 
+.courses-description {
+  background-color: #F5F5F5;
+  width: 100%;
+  max-width: 900px;
+}
+
+.card {
+  border-radius: 16px !important;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25) !important;
+}
+
+.solar-energy-card {
+  background-color: #94E1FF !important;
+  background: linear-gradient(180deg, #ECFAFF 0%, #94E1FF 100%);
+}
+
+.solar-work-card {
+  background-color: #470000 !important;
+  background: linear-gradient(180deg, #CE0202 0%, #470000 100%);
+}
+
+.online-platform-card {
+  background-color: #003042 !important;
+  background: linear-gradient(180deg, #39829E 0%, #003042 100%)
+}
+
+.statistics-background {
+  background-image: url("../assets/solar-panels-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.statistic-image {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.profile-image {
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25) !important;
+
 }
 
 [data-scroll] {
