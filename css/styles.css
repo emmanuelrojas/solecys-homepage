@@ -2,6 +2,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Maven Pro', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .solid {
@@ -20,7 +22,7 @@ html, body {
 .hero-background {
   height: 120vh;
   margin-top: -120px !important;
-  padding-top: 50vh;
+  padding-top: 40vh;
   background-image: url("../assets/solar-panels.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -138,4 +140,33 @@ html, body {
 [data-scroll="out"] {
   transform: translateY(200px);
   opacity: 0;
+}
+
+.sidenav-menu {
+  background-color: #222222 !important;
+  color: #FFFFFF;
+  width: 360px !important;
+
+}
+
+.white-text {
+  color: #FFFFFF !important;
+}
+
+.video-player {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-background {
+    background-attachment: scroll; 
+  }
+
+  .signup-background {
+    background-attachment: scroll;
+  }
+
+  .statistics-background {
+    background-attachment: scroll;
+  }
 }

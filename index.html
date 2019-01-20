@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -10,6 +10,17 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Facebook Meta TAGs -->
+    <meta property="og:title" content="Solecys" />
+    <meta property="og:description" content="Cursos de Energía Solar" />
+    <meta property="og:image" content="https://solecys.com/assets/solar-panels-small.jpg" />
+    <meta property="og:url" content="https://solecys.com" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content="Solecys" />
+    <meta name="twitter:image:alt" content="Cursos de Energía Solar" />
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -27,37 +38,50 @@
           <a href="#"><img src="./assets/solecys-logo.png" alt="" class="brand-logo"></a>
           <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Registro</a></li>
+            <li><a href="https://cursos.solecys.com/registro" target="__blanck">Registro</a></li>
+            <li><a href="https://cursos.solecys.com/cursos/energia-solar" target="__blanck">Curso de Energía Solar</a></li>
+            <li><a href="https://solecys.com/registro-sistemas-interconectados/" target="__blanck">Registro de Sistemas Interconectados</a></li>
             <li>|</li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.facebook.com/Solecys/" target="__blanck"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/solecyscompany/" target="__blanck"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC11Upb05fXmRsvrCIgOFtyw" target="__blanck"><i class="fab fa-youtube"></i></a></li>
+            <!--
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            -->
           </ul>
         </div>
       </div>
     </nav>
   </div>
 
-  <ul class="sidenav" id="mobile-menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Servicios</a></li>
-    <li><a href="#">Paquetes</a></li>
-    <li><a href="#">Nosotros</a></li>
-    <li><a href="#">Contacto</a></li>
-    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+  <ul id="mobile-menu" class="sidenav sidenav-menu">
+    <li class="text-center"><img src="./assets/solecys-logo.png" alt="" class="brand-logo"></li>
+    <li><a href="https://cursos.solecys.com/acceso" class="white-text "><i class="fas fa-user" style="color: #FF8800"></i>Iniciar Sesión</a></li>
+    <li><a href="https://cursos.solecys.com/registro" class="white-text "><i class="fas fa-user-plus" style="color: #AAAAFF"></i>Registro</a></li>
+    <li><a href="https://cursos.solecys.com/cursos/energia-solar" class="white-text "><i class="fas fa-graduation-cap" style="color: #55FF00"></i>Curso de Energía Solar</a></li>
+    <li><a href="https://solecys.com/registro-sistemas-interconectados/" class="white-text "><i class="fas fa-graduation-cap" style="color: #0088FF"></i>Registro de Sistemas Interconectados</a></li>
+    <li><a href="https://www.facebook.com/Solecys" class="white-text "><i class="fab fa-facebook-f" style="color: #8888FF"></i>Facebook</a></li>
+    <li><a href="https://www.instagram.com/solecyscompany" class="white-text "><i class="fab fa-instagram" style="color: #FF8888"></i>Instagram</a></li>
+    <li><a href="https://www.youtube.com/channel/UC11Upb05fXmRsvrCIgOFtyw" class="white-text "><i class="fab fa-youtube" style="color: #BB0000"></i>YouTube</a></li>
   </ul>
 
-  <div class="hero-background top">
+  <div class="hero-background top text-center">
     <h1 class="hero-text">Curso de Energía Solar</h1>
+    <br>
+    <br>
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn-large modal-trigger yellow darken-4" href="#videomodal"><i class="far fa-play-circle left"></i>Video de Introducción</a>
+
+    <!-- Modal Structure -->
+    <div id="videomodal" class="modal yellow grey darken-4">
+      <div class="modal-content">
+        <iframe src="https://player.vimeo.com/video/311275958" width="640" height="360" class="video-player" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
 
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large green" href="https://wa.me/522211204958?text=¡Me%20interesa!%20Mándenme%20más%20información" target="__blanck">
+    <a class="btn-floating btn-large green" href="https://wa.me/527821754523?text=¡Me%20interesa!%20Mándenme%20más%20información" target="__blanck">
       <i class="fab fa-whatsapp"></i>
     </a>
   </div>
@@ -161,10 +185,11 @@
       <div class="col s12 m8">
         <div class="sign-up-form container">
           <h1>Registro</h1>
-          <p>Iniciamos el 15 de enero, suscríbete ahora y aprovecha nuestra promoción de preventa</p>
-          <h1>3 Meses x</h1>
-          <h1>$400.00 MXN</h1>
-          <br>
+          <p>Inscríbete ahora y aprovecha nuestra promoción de preventa</p>
+          <h4>Curso de Energía Solar</h4>
+          <h2>$1,000.00 MXN</h2>
+          <a class="waves-effect waves-light btn-large yellow darken-4" href="https://cursos.solecys.com/cursos/energia-solar"><i class="fas fa-graduation-cap left"></i>Inscripciones</a>
+          <br><br><br>
         </div>
       </div>
       <div class="col s12 m4">
@@ -188,7 +213,7 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Información</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Plataforma</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://cursos.solecys.com">Plataforma</a></li>
             <li><a class="grey-text text-lighten-3" href="#!">Terminos y Condiciones</a></li>
             <li><a class="grey-text text-lighten-3" href="#!">Acuerdo de Privacidad</a></li>
           </ul>
@@ -197,7 +222,7 @@
     </div>
     <div class="footer-copyright blue-grey darken-4">
       <div class="container">
-      © 2018 Solecys
+      © 2019 Solecys
       </div>
     </div>
   </footer>
